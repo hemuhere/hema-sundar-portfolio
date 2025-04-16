@@ -13,20 +13,21 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: 'Hema Sundar Somireddy - Sr UI UX Designer & Frontend Developer',
-  description:
-    'As a UI, UX Designer, and Architect with 9+ years of experience in designing WEB and MOBILE applications.
-I am an expert in Product Design, UX Subject Matter Expert, UI Wireframes (using Adobe XD, Figma), Adobe Photoshop, Prototypes (using Adobe XD, Figma), Responsive Design, Micro Front-end level design, e-commerce design, UXPin, Axure, Balsamiq, Sketch, InVision, Adobe Illustrator, Miro, Zeplin, UX Copywriter, UX Research, FSC, A/B Testing, Adobe After Effects, XAML-Based UI Design, Material UI component customizations, JavaScript, HTML5, CSS3, SCSS, Python, MySQL, Tailwind CSS, LESS, Svelte, Mobile Responsiveness, AEM websites, WordPress, Angular, React, Salesforce, Atlassian Jira, PHP, Quality Assurance in Design, Design Systems (created with Adobe XD, Figma), portfolio showcasing, ANTD, Bootstrap, Stencil JS, E-commerce, Excel, Visio, Microsoft Access, Microsoft Tools, PowerPoint, Smartsheet..
-Also, I can handle business analysis, agile, scrum, JIRA board, confluence, architecture design, prototyping (using Adobe XD, Figma), and lead a team.',
+  description: `As a UI, UX Designer, and Architect with 9+ years of experience in designing WEB and MOBILE applications.
+I am an expert in Product Design, UX Subject Matter Expert, UI Wireframes (using Adobe XD, Figma), Adobe Photoshop, Prototypes (using Adobe XD, Figma), Responsive Design, Micro Front-end level design, e-commerce design, UXPin, Axure, Balsamiq, Sketch, InVision, Adobe Illustrator, Miro, Zeplin, UX Copywriter, UX Research, FSC, A/B Testing, Adobe After Effects, XAML-Based UI Design, Material UI component customizations, JavaScript, HTML5, CSS3, SCSS, Python, MySQL, Tailwind CSS, LESS, Svelte, Mobile Responsiveness, AEM websites, WordPress, Angular, React, Salesforce, Atlassian Jira, PHP, Quality Assurance in Design, Design Systems (created with Adobe XD, Figma), portfolio showcasing, ANTD, Bootstrap, Stencil JS, E-commerce, Excel, Visio, Microsoft Access, Microsoft Tools, PowerPoint, Smartsheet.
+Also, I can handle business analysis, agile, scrum, JIRA board, confluence, architecture design, prototyping (using Adobe XD, Figma), and lead a team.`,
 }
 
 const geist = Geist({
   variable: '--font-geist',
   subsets: ['latin'],
+  display: 'swap',
 })
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
+  display: 'swap',
 })
 
 export default function RootLayout({
@@ -40,12 +41,12 @@ export default function RootLayout({
         className={`${geist.variable} ${geistMono.variable} bg-white tracking-tight antialiased dark:bg-zinc-950`}
       >
         <ThemeProvider
-          enableSystem={true}
+          enableSystem
           attribute="class"
           storageKey="theme"
           defaultTheme="system"
         >
-          <div className="flex min-h-screen w-full flex-col font-[family-name:var(--font-inter-tight)]">
+          <div className="flex min-h-screen w-full flex-col font-sans">
             <div className="relative mx-auto w-full max-w-screen-sm flex-1 px-4 pt-20">
               <Header />
               {children}
