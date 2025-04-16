@@ -1,40 +1,78 @@
-<img src="/public/cover.jpg" alt="Cover image representing Nim, a personal website template" width="100%" />
+💼 Hema Sundar Somireddy – Portfolio Website
+Welcome to my personal portfolio! This website showcases my professional journey as a Sr. UI/UX Designer, UI Architect, and Frontend Developer with over 9 years of experience in building modern, accessible, and scalable web and mobile applications.
 
-Nim is a free and open-source personal website template built with Next.js 15, React 19, Tailwind CSS v4, and Motion. Designed for developers, designers, and founders, it combines minimalism with delightful animated components powered by [Motion-Primitives](https://motion-primitives.com).
+🚀 Tech Stack
+This portfolio is built using:
 
-Live demo: [https://nim-fawn.vercel.app](https://nim-fawn.vercel.app)
+Next.js 14
 
-## Features
+React.js
 
-- Minimal one-page portfolio layout.
-- Blog support with MDX.
-- Responsive and accessible design.
-- Easy to use
-- [Motion-Primitives](https://motion-primitives.com) for animated components.
+TypeScript
 
-## Getting Started
+Tailwind CSS
 
-For detailed setup instructions, refer to the [Installation Guide](./INSTALLATION.md).
+Framer Motion
 
-```bash
-git clone https://github.com/ibelick/nim.git
-cd nim
-npm install
-npm run dev
-```
+next-themes for dark/light mode toggle
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Google Fonts – Geist & Geist Mono
 
-## Contributing
+Deployed on Vercel
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve Nim.
+🧩 Key Sections
+Home: Overview and introduction.
 
-## Deployment
+About: My background, skills, and design philosophy.
 
-You can deploy your site to any hosting platform that supports Next.js. For the easiest deployment experience, consider using Vercel:
+Work: Featured projects and contributions from companies like Apple, Amazon, Citibank, and more.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fibelick%2Fnim&env=NEXT_PUBLIC_SITE_URL&project-name=nim&repository-name=nim&redirect-url=https%3A%2F%2Ftwitter.com%2Fibelick&demo-title=Nim&demo-description=Nim%20is%20a%20free%20and%20open-source%20minimal%20personal%20website%20template%20built%20with%20Next.js%2015%2C%20React%2019%2C%20and%20Motion-Primitives.&demo-url=https%3A%2F%2Fnim.vercel.app&demo-image=https%3A%2F%2Fraw.githubusercontent.com%2Fibelick%2Fnim%2Frefs%2Fheads%2Fmain%2F.github%2Fassets%2Freadme.png&teamSlug=ibelick)
+Blog: My thoughts and insights on design, freelancing, and career growth.
 
-## About
+Contact: Quick ways to reach out and connect.
 
-Nim is designed to make personal branding effortless and beautiful. If you enjoy it, consider sharing it and exploring [Motion-Primitives Pro](https://pro.motion-primitives.com/).
+📂 Folder Structure
+scss
+Copy
+Edit
+.
+├── components       // Reusable components like Header, Footer, Cards
+├── app              // Next.js app directory with pages and layout
+├── public           // Static assets like images
+├── styles           // Global CSS and Tailwind config
+├── utils            // Helper functions or constants
+├── content          // Project and blog metadata
+└── README.md        // You're here!
+✨ Features
+🎨 Clean and modern UI with smooth animations
+
+🌗 Theme toggle for dark/light mode
+
+🧠 SEO optimized metadata
+
+💡 Responsive design for all screen sizes
+
+🔍 Organized project and work experience data
+
+✍️ Dynamic blog structure (easy to scale)
+
+📸 Projects Highlight
+Devex @ Apple – A CI/CD pipeline management system using micro front-ends
+
+DataHub @ Apple – A data catalog management platform with dashboarding and filtering
+
+CECRM @ Amazon – A CRM for community engagement and client communications
+
+KonnectCo @ Freyr – A social HRM app with payroll, timesheet, and leave tracking
+
+📬 Contact
+If you're interested in working together, collaborating on a project, or just saying hello:
+
+📧 Email: hemasundar.sr@gmail.com
+
+🔗 LinkedIn: linkedin.com/in/hemuhere
+
+💻 GitHub: github.com/hemuhere
+
+📄 License
+This project is open source and free to use. If you reuse or adapt any part of it, a link back or attribution is appreciated!
