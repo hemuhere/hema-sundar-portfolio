@@ -1,4 +1,4 @@
-type Project = {
+atype Project = {
   name: string
   description: string
   link: string
@@ -29,48 +29,80 @@ type SocialLink = {
 
 export const PROJECTS: Project[] = [
   {
-    name: 'Motion Primitives Pro',
+    name: 'Devex - at Apple',
     description:
-      'Advanced components and templates to craft beautiful websites.',
+      'A micro front-end-based web application designed for managing CI/CD pipelines. It enables users to add new projects, configure pipelines, trigger builds, and manage build logs. The application serves department users within the GBI division and provides a seamless interface for continuous integration and deployment processes.',
     link: 'https://pro.motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
     id: 'project1',
   },
   {
-    name: 'Motion Primitives',
-    description: 'UI kit to make beautiful, animated interfaces.',
+    name: 'Data Catalogue (DataHub) - at Apple',
+    description: 'Data Catalogue (DataHub): A comprehensive data catalog ecosystem management portal developed for the GBI team. This application facilitates the ingestion of data and provides business users with domain-specific data grids. Users can create dashboards, apply filters, export data, and manage datasets effectively through an intuitive UI.',
     link: 'https://motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
   },
+  {
+    name: ' CECRM (Community Engagement CRM) - at Amazon',
+    description: 'Built CECRM, a web application aimed at managing and maintaining community relationship data between Amazon and its clients. It captures various communication channels such as phone calls, emails, and messages. The system ensures consistent tracking of engagement, even if there are user transitions on either side, thereby preserving relationship continuity.',
+    link: 'https://motion-primitives.com/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project3',
+  },
+   {
+    name: 'KonnectCo - at Freyr Software Solutions',
+    description: 'Developed KonnectCo, a web and mobile-based Human Resource Management (HRM) application. It includes features such as a social feed (similar to LinkedIn), payroll, leave and attendance management, project tracking, timesheets, and appraisal systems. The platform is role-based and allows companies to fully manage their HR and internal operations from onboarding to daily workflows.',
+    link: 'https://motion-primitives.com/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project3',
+  },
 ]
 
 export const WORK_EXPERIENCE: WorkExperience[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work1',
+    company: 'Apple',
+    title: 'Sr UI UX Designer ',
+    start: 'Dec 2022',
+    end: 'Mar 2025',
+    link: 'https://www.apple.com/',
+    id: 'apple1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
+    company: 'Citi Bank Group',
+    title: 'UX Subject Matter Expert',
+    start: 'Apr 2022',
+    end: 'Nov 2022',
+    link: 'https://www.citi.com/',
+    id: 'citi1',
   },
   {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
+    company: 'Amazon',
+    title: 'UI Architect',
+    start: 'Feb 2021',
+    end: 'Apr 2022',
+    link: 'https://www.amazon.com/',
+    id: 'amazon1',
+  },
+  {
+    company: 'Freyr Software Solutions',
+    title: 'Senior Associate',
+    start: 'Feb 2018',
+    end: 'Feb 2021',
+    link: 'https://www.freyrsolutions.com/',
+    id: 'freyr1',
+  },
+  {
+    company: 'Social DNA',
+    title: 'UI UX Designer & Developer',
+    start: 'Jan 2016',
+    end: 'Feb 2018',
+    link: 'http://socialdna.in/',
+    id: 'socialdna1',
   },
 ]
 
@@ -100,20 +132,12 @@ export const BLOG_POSTS: BlogPost[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   {
     label: 'Github',
-    link: 'https://github.com/ibelick',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/ibelick',
+    link: 'https://github.com/hemuhere',
   },
   {
     label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/ibelick',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/ibelick',
+    link: 'https://www.linkedin.com/in/hemuhere',
   },
 ]
 
-export const EMAIL = 'your@email.com'
+export const EMAIL = 'hemasundar.sr@gmail.com'
