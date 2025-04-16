@@ -137,8 +137,10 @@ export default function Personal() {
       >
         <div className="flex-1">
           <p className="text-zinc-600 dark:text-zinc-400">
-            Focused on creating intuitive and performant web experiences.
-            Bridging the gap between design and development.
+            As a UI, UX Designer, and Architect with 9+ years of experience in designing WEB and MOBILE applications.
+I am an expert in Product Design, UX Subject Matter Expert, UI Wireframes (using Adobe XD, Figma), Adobe Photoshop, Prototypes (using Adobe XD, Figma), Responsive Design, Micro Front-end level design, e-commerce design, UXPin, Axure, Balsamiq, Sketch, InVision, Adobe Illustrator, Miro, Zeplin, UX Copywriter, UX Research, FSC, A/B Testing, Adobe After Effects, XAML-Based UI Design, Material UI component customizations, JavaScript, HTML5, CSS3, SCSS, Python, MySQL, Tailwind CSS, LESS, Svelte, Mobile Responsiveness, AEM websites, WordPress, Angular, React, Salesforce, Atlassian Jira, PHP, Quality Assurance in Design, Design Systems (created with Adobe XD, Figma), portfolio showcasing, ANTD, Bootstrap, Stencil JS, E-commerce, Excel, Visio, Microsoft Access, Microsoft Tools, PowerPoint, Smartsheet..
+Also, I can handle business analysis, agile, scrum, JIRA board, confluence, architecture design, prototyping (using Adobe XD, Figma), and lead a team.
+
           </p>
         </div>
       </motion.section>
