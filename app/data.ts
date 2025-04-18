@@ -56,13 +56,31 @@ export const PROJECTS: Project[] = [
     id: 'project3',
   },
   {
+    name: 'EMEA Application: - at CitiBank Group',
+    description:
+      'Developed an application focused on managing materiality issues within the EMEA (Europe, Middle East, and Asia) regions. The tool helps business and data analysts identify the root cause of issues by tracing data flow across upstream and downstream systems. The platform supports critical decision-making by providing end-to-end visibility of data interactions.',
+    link: 'https://motion-primitives.com/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project4',
+  },
+  {
     name: 'KonnectCo - at Freyr Software Solutions',
     description:
       'Developed KonnectCo, a web and mobile-based Human Resource Management (HRM) application. It includes features such as a social feed (similar to LinkedIn), payroll, leave and attendance management, project tracking, timesheets, and appraisal systems. The platform is role-based and allows companies to fully manage their HR and internal operations from onboarding to daily workflows.',
     link: 'https://motion-primitives.com/',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
-    id: 'project4',
+    id: 'project5',
+  },
+  {
+    name: 'SubmitPro - at Freyr Software Solutions',
+    description:
+      'Developed KonnectCo, a web and mobile-based Human Resource Management (HRM) application. It includes features such as a social feed (similar to LinkedIn), payroll, leave and attendance management, project tracking, timesheets, and appraisal systems. The platform is role-based and allows companies to fully manage their HR and internal operations from onboarding to daily workflows.',
+    link: 'https://motion-primitives.com/',
+    video:
+      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
+    id: 'project5',
   },
 ]
 
