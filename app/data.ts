@@ -32,16 +32,16 @@ export const PROJECTS: Project[] = [
     name: 'Devex - at Apple',
     description:
       'A micro front-end-based web application designed for managing CI/CD pipelines. It enables users to add new projects, configure pipelines, trigger builds, and manage build logs. The application serves department users within the GBI division and provides a seamless interface for continuous integration and deployment processes.',
-    link: 'https://pro.motion-primitives.com/',
+    link: '#',
     video:
-      'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/newProfileItem/d898be8a-7037-4c71-af0c-8997239b050d.mp4?_a=DATAdtAAZAA0',
+      '',
     id: 'project1',
   },
   {
     name: 'Data Catalogue (DataHub) - at Apple',
     description:
       'Data Catalogue (DataHub): A comprehensive data catalog ecosystem management portal developed for the GBI team. This application facilitates the ingestion of data and provides business users with domain-specific data grids. Users can create dashboards, apply filters, export data, and manage datasets effectively through an intuitive UI.',
-    link: 'https://motion-primitives.com/',
+    link: '#',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project2',
@@ -50,7 +50,7 @@ export const PROJECTS: Project[] = [
     name: 'CECRM (Community Engagement CRM) - at Amazon',
     description:
       'Built CECRM, a web application aimed at managing and maintaining community relationship data between Amazon and its clients. It captures various communication channels such as phone calls, emails, and messages. The system ensures consistent tracking of engagement, even if there are user transitions on either side, thereby preserving relationship continuity.',
-    link: 'https://motion-primitives.com/',
+    link: '#',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project3',
@@ -59,7 +59,7 @@ export const PROJECTS: Project[] = [
     name: 'EMEA Application: - at CitiBank Group',
     description:
       'Developed an application focused on managing materiality issues within the EMEA (Europe, Middle East, and Asia) regions. The tool helps business and data analysts identify the root cause of issues by tracing data flow across upstream and downstream systems. The platform supports critical decision-making by providing end-to-end visibility of data interactions.',
-    link: 'https://motion-primitives.com/',
+    link: '#',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project4',
@@ -68,7 +68,7 @@ export const PROJECTS: Project[] = [
     name: 'KonnectCo - at Freyr Software Solutions',
     description:
       'Developed KonnectCo, a web and mobile-based Human Resource Management (HRM) application. It includes features such as a social feed (similar to LinkedIn), payroll, leave and attendance management, project tracking, timesheets, and appraisal systems. The platform is role-based and allows companies to fully manage their HR and internal operations from onboarding to daily workflows.',
-    link: 'https://motion-primitives.com/',
+    link: '#',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project5',
@@ -77,7 +77,7 @@ export const PROJECTS: Project[] = [
     name: 'SubmitPro - at Freyr Software Solutions',
     description:
       'Developed KonnectCo, a web and mobile-based Human Resource Management (HRM) application. It includes features such as a social feed (similar to LinkedIn), payroll, leave and attendance management, project tracking, timesheets, and appraisal systems. The platform is role-based and allows companies to fully manage their HR and internal operations from onboarding to daily workflows.',
-    link: 'https://motion-primitives.com/',
+    link: '#',
     video:
       'https://res.cloudinary.com/read-cv/video/upload/t_v_b/v1/1/profileItems/W2azTw5BVbMXfj7F53G92hMVIn32/XSfIvT7BUWbPRXhrbLed/ee6871c9-8400-49d2-8be9-e32675eabf7e.mp4?_a=DATAdtAAZAA0',
     id: 'project5',
